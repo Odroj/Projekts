@@ -4,10 +4,7 @@
 #include <conio.h>
 #include <time.h>
 #define MAX_NAME 50
-//Jordyn-Rhys Davis/Nathan Wilson/Joel Clarke/Jahliel Rochester/Amelia Brown
-//2405407/2350185/2407184/2401817/2304412
-//Group E
-//Mrs Sachell Linch-Mclnnis 
+
 
 //For Agents end the email with "nwc.ja", for customers end the email with any other domain.//
 
@@ -671,7 +668,7 @@ void registr_card(){
     }
     char line[256]; 
     int cust_num, found=0, fcust_num, hash_card=0;
-    char card_number[MAX_NAME], exp_date[MAX_NAME], line[256];
+    char card_number[MAX_NAME], exp_date[MAX_NAME];
     printf("\n********************************\n");
     printf("Register Payment Card.\n");
     printf("\nEnter your customer number: ");
